@@ -1,0 +1,111 @@
+.hero-btn-type {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  max-width: 100%;
+  @media screen and (min-width: 826px) {
+    flex: unset;
+    max-width: unset;
+  }
+}
+
+.hero_link {
+  height: 51px;
+  max-width: 100%;
+  flex-grow: 1;
+  /* min-width: 100px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--purple-color);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: normal;
+  @media screen and (min-width: 826px) {
+    max-width: unset;
+    flex-grow: unset;
+    min-width: unset;
+    width: 380px;
+    height: 74px;
+    font-size: 19.463px;
+  }
+}
+
+.hero-btn-type__active {
+  background-color: var(--purple-color);
+}
+.hero-btn-type__active a {
+  color: #fff;
+}
+
+.right_item {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 52.5px;
+  height: 77.8px;
+  background-color: #ffde8a;
+  border-radius: 12px;
+  transition: 0.2s;
+  border: 3px solid transparent;
+  @media screen and (min-width: 826px) {
+    width: 66.2px;
+    height: 96.4px;
+    max-width: unset;
+  }
+}
+.right_item span {
+  color: #d69900;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 9.864px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  @media screen and (min-width: 826px) {
+    font-size: 11.768px;
+  }
+}
+.right_item:hover {
+  border: 3px solid #ebbe4e;
+  box-shadow: 5.71212100982666px 9.520201683044434px 28.560604095458984px
+    0.9520201683044434px rgba(108, 95, 188, 0.12);
+}
+
+.right_item__active {
+  border: 3px solid #ebbe4e;
+  box-shadow: 5.71212100982666px 9.520201683044434px 28.560604095458984px
+    0.9520201683044434px rgba(108, 95, 188, 0.12);
+}
+.right_sort {
+  color: #acadb9;
+  font-family: Poppins;
+  font-size: 12.948px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.87;
+  cursor: pointer;
+  transition: 0.2s;
+  @media screen and (min-width: 826px) {
+    font-size: 15.448px;
+  }
+}
+.right_sort__active {
+  color: var(--purple-color);
+}
+.right_sort:hover {
+  color: var(--purple-color);
+}
+.right_sort:first-child {
+  margin-bottom: 6px;
+  @media screen and (min-width: 826px) {
+    margin-right: 97px;
+    margin-bottom: 9px;
+  }
+}

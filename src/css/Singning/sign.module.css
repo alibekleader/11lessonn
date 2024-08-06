@@ -1,0 +1,318 @@
+.sign_container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.sign_logo {
+  position: absolute;
+
+  top: 17px;
+  left: 18px;
+  background-color: transparent;
+  border: 0;
+  display: flex;
+  align-items: center;
+  color: var(--purple-color);
+  font-weight: 500;
+  font-size: 20px;
+  @media screen and (min-width: 826px) {
+    top: 32px;
+    left: 48px;
+  }
+}
+.sign_svg {
+  margin-right: 10px;
+  width: 35px;
+  height: 32px;
+  @media screen and (min-width: 826px) {
+    width: unset;
+    height: unset;
+  }
+}
+.sign_left {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  @media screen and (min-width: 826px) {
+    width: 60%;
+  }
+}
+.title_left {
+  color: #323142;
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  line-height: 1.25;
+  letter-spacing: -1.41px;
+  @media screen and (min-width: 826px) {
+    font-size: 35.25px;
+    margin-bottom: 48px;
+  }
+}
+.btn {
+  width: 148px;
+  height: 51px;
+  border: 2px solid transparent;
+  background-color: #cfcfcf46;
+  border-radius: 13.341px;
+  transition: 0.2s;
+  @media screen and (min-width: 826px) {
+    max-width: unset;
+    width: 183px;
+    height: 63px;
+  }
+}
+.btn_svg {
+  width: 21px;
+  @media screen and (min-width: 826px) {
+    width: unset;
+  }
+}
+.btn:hover {
+  border: 2px solid var(--purple-color);
+}
+.btn:first-child {
+  margin-right: 21px;
+}
+.btn_wrap {
+  margin-bottom: 20px;
+  display: flex;
+  @media screen and (min-width: 826px) {
+    margin-bottom: 33px;
+  }
+}
+.mid_span {
+  color: rgba(0, 90, 100, 0.35);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  @media screen and (min-width: 826px) {
+    margin-bottom: 35px;
+    font-size: 20.011px;
+  }
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 309px;
+  margin: 0 auto;
+  @media screen and (min-width: 826px) {
+    max-width: unset;
+    margin: unset;
+  }
+}
+.input_wrap {
+  position: relative;
+  margin-bottom: 12px;
+  @media screen and (min-width: 826px) {
+    margin-bottom: 24px;
+  }
+}
+.input_wrap svg {
+  position: absolute;
+  fill: #c2c3cb;
+}
+.svg_name {
+  top: 23px;
+  left: 24px;
+  transition: 0.2s;
+  width: 16px;
+  height: 18px;
+  @media screen and (min-width: 826px) {
+    top: 26px;
+    width: unset;
+    height: unset;
+  }
+}
+.svg_email {
+  top: 25px;
+  left: 23px;
+  width: 18px;
+  height: 14px;
+  @media screen and (min-width: 826px) {
+    top: 29px;
+    width: unset;
+    height: unset;
+  }
+}
+.svg_pass {
+  top: 23px;
+  left: 23px;
+  width: 15px;
+  height: 19px;
+  @media screen and (min-width: 826px) {
+    top: 25px;
+    width: unset;
+    height: unset;
+  }
+}
+.input {
+  height: 60px;
+  width: 217px;
+  padding-left: 79px;
+  border: 2px solid transparent;
+  background-color: #cfcfcf46;
+  border-radius: 16.275px;
+  outline: 0;
+  color: #98989a;
+  font-family: Poppins;
+  font-size: 16.676px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.167px;
+  text-transform: uppercase;
+  transition: 0.2s;
+  @media screen and (min-width: 826px) {
+    width: 303px;
+    height: 74px;
+  }
+}
+.input:hover,
+.input:focus {
+  border: 2px solid var(--purple-color);
+  color: #6c5fbc;
+}
+.input:hover .input_wrap svg {
+  fill: #6c5fbc;
+}
+.btn_submit {
+  height: 60px;
+  border: 0;
+  border-radius: 16.564px;
+  background-color: var(--purple-color);
+  color: #f3f5f6;
+  font-family: Poppins;
+  font-size: 17.788px;
+  font-weight: 600;
+  letter-spacing: 0.534px;
+  text-transform: uppercase;
+  @media screen and (min-width: 826px) {
+    height: 74px;
+  }
+}
+.bottom_text {
+  color: #3e3e3e;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.189px;
+  @media screen and (min-width: 826px) {
+    font-size: 18.9px;
+  }
+}
+.bottom_link {
+  color: #6c5fbc;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.189px;
+}
+.privacy {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  bottom: 40px;
+  justify-content: space-around;
+  font-size: 13px;
+  @media screen and (min-width: 826px) {
+    font-size: 16px;
+  }
+}
+
+.hero-right-wrap {
+  position: relative;
+  width: 360px;
+  margin: 0 auto;
+  margin-bottom: 78px;
+}
+.sign_right {
+  display: none;
+
+  @media screen and (min-width: 826px) {
+    display: unset;
+    width: 40%;
+    background-color: var(--purple-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./login-gb.png);
+    background-position: center;
+    background-size: contain;
+  }
+}
+
+.hero-img {
+  width: 359px;
+  height: 359px;
+  display: block;
+}
+.hero-top-img {
+  position: absolute;
+  top: -40px;
+  right: -120px;
+  width: 340px;
+  height: 120px;
+}
+
+.hero-bottom-img {
+  position: absolute;
+  left: -20px;
+  bottom: -20px;
+  width: 159px;
+  height: 168px;
+}
+.right_text_wrap {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.right_title {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+.right_text {
+  color: #fff;
+
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  opacity: 0.7;
+}
+.forget_pass {
+  color: #6c5fbc;
+  font-family: Poppins;
+  font-size: 15.564px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.7;
+  margin-bottom: 20px;
+  margin-right: 0;
+  margin-left: auto;
+}
+.email_text {
+  color: #cfcfd3;
+  font-family: Poppins;
+  font-size: 22.558px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25;
+}
